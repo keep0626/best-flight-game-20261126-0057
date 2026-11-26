@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Courier — Harbor Ring Run</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="menu" class="overlay hidden">
+    <h1>SKY COURIER</h1>
+    <p class="tagline">Harbor Ring Run &middot; an original flight game</p>
+    <div id="missionList"></div>
+    <p class="controls">Fly: <b>W/S</b> pitch &middot; <b>A/D</b> bank &middot; <b>Shift</b> throttle up &middot; <b>Ctrl</b> throttle down &middot; <b>Space</b> flaps (slow down) &middot; <b>P</b> pause &middot; <b>R</b> restart &middot; <b>M</b> sound</p>
+    <p class="hint">Fly through every glowing ring, then land gently on the runway. Watch your fuel, your speed and the ground.</p>
+  </div>
+  <div id="endcard" class="overlay hidden"></div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

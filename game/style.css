@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0a1220; height: 100%; }
+body { display: flex; align-items: center; justify-content: center; font-family: "Segoe UI", Verdana, sans-serif; }
+#stage { position: relative; width: 1280px; height: 800px; max-width: 100vw; max-height: 100vh; }
+canvas { display: block; width: 100%; height: 100%; background: #79a6d2; }
+.overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #f4f7fb; text-align: center; background: rgba(6, 18, 38, 0.55); }
+.hidden { display: none; }
+.overlay h1 { font-size: 64px; letter-spacing: 10px; margin: 0 0 4px; color: #ffd23e; text-shadow: 0 3px 0 #7a4d00, 0 8px 24px rgba(0,0,0,.6); }
+.tagline { font-size: 19px; margin: 0 0 26px; color: #cfe6ff; }
+#missionList { display: flex; gap: 14px; margin-bottom: 22px; }
+.missionBtn { width: 250px; padding: 16px 14px; border: 2px solid #ffd23e; border-radius: 12px; background: rgba(10, 30, 58, 0.85); color: #fff; cursor: pointer; text-align: left; }
+.missionBtn:hover { background: #173a63; }
+.missionBtn b { display: block; font-size: 18px; margin-bottom: 6px; color: #ffd23e; }
+.missionBtn span { font-size: 13px; line-height: 1.45; color: #d6e6f8; display: block; }
+.controls { font-size: 15px; margin: 4px 0; }
+.hint { font-size: 14px; color: #a9c4e2; max-width: 640px; }
+#endcard h2 { font-size: 52px; margin: 0 0 10px; }
+#endcard p { font-size: 18px; margin: 6px 0; }
+#endcard button { margin-top: 18px; font-size: 18px; padding: 10px 26px; border-radius: 10px; border: none; background: #ffd23e; color: #233; font-weight: bold; cursor: pointer; }
